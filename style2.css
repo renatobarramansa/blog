@@ -1,0 +1,67 @@
+@import 'global.css';
+
+body {
+  background-color: #eee;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.containerpg2{
+  display: flex;
+  width: 600px;
+  flex-direction: column;
+  margin: 80 auto;  
+  line-height: 1.5;
+  color: #5f5d5d;
+  
+  /* background-color: aquamarine; */
+}
+
+.containerpg2-art{
+  display: flex;
+  width: 580px;
+  gap: 20px;  
+  padding: 20px;
+  flex-direction: column;
+  margin: 40 auto;
+  background-color: white;
+}
+
+textarea, input {
+ width: 100%;
+}
+
+label {
+  display: block;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  color: rgb(54, 50, 50);
+  flex-direction: column;
+}
+
+input[type="checkbox"]{
+  display: inline-block;
+  width: initial;  
+  margin: 0px;
+  padding: 0px;
+}
+
+input[type="text"], input[type="email"], input[type="url"]{
+  height: 35px;  
+}
+
+button {
+  padding: 10px 20px;
+  border:solid 1px #CC3366;
+  background: white;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #CC3366;
+}
+
+button:hover {
+  background-color: #CC3366;
+  color: white;
+}
